@@ -1,0 +1,14 @@
+<templateSet group="html/xml">
+  <template name="php" value="&lt;?php $SELECTION$ ?&gt; " description="php tags" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ht" value="&lt;!DOCTYPE html&gt;&#10;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;    &lt;h1&gt;&lt;/h1&gt;&#10;&#10;&lt;/body&gt;&#10;&#10;&lt;/html&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

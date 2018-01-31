@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="ht" value="&lt;!DOCTYPE html&gt;&#10;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;    &lt;h1&gt;&lt;/h1&gt;&#10;&#10;&lt;/body&gt;&#10;&#10;&lt;/html&gt;" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="meth" value="public function ()&#10;{&#10;}" description="creates a ppublic function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
